@@ -7,9 +7,9 @@ function Nav() {
         <h1 className='logo'>EcomApplication</h1>
     <nav>
   <ul>
-    <li>cart</li>
-    <li>wishlist</li>
-    <li>login</li>
+    <li>Cart </li>
+    <li>Wishlist </li>
+    <li>Login</li>
   </ul>
 </nav>
     </div>

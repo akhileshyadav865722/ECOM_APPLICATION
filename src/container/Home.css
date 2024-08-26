@@ -1,0 +1,52 @@
+.products{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-evenly;
+      gap: 15px;
+      padding-bottom: 20px;
+      
+      
+      
+}
+.first{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width:300px;
+    height:auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+
+    
+    
+}
+.image{
+    
+    border-radius: 10px;
+    padding: 20px;
+   box-shadow: 1px 1px 4px 1px  inset rgb(223, 222, 222);
+   background-color: #fff;
+    
+
+}
+
+.first h3, p{
+    font-size:120%;
+    margin-top: 20px;
+}
+.buttons
+{
+    display:  flex;
+    justify-content: space-around;
+}
+
+.button1{
+    padding:8px 15px;
+    background-color: red;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

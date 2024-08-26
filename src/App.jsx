@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Component/Nav";
-import Home from "./container/Home";
+import Home from "./Container/Home";
 
 function App(){
   return(

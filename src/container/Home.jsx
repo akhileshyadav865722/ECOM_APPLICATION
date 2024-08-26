@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Home.css/";
 
 export default class home extends Component {
     constructor(){
@@ -17,23 +18,37 @@ export default class home extends Component {
         this.getProducts()
     }
   render() {
+    console.log(this.state.products)
     return (
 
-      <div>
-        {this.state.products.map(
+      <>
+
+      <div className='products'>
+      {this.state.products.map(
             (products,index)=>{
                 return(
-                    <div key={index}>
-                        <div>
-                            <img src={products.image} alt="" style={{height:"200px",width:"250px"}} />
+                <div className="first">
+                    <div key={index} >
+                        <div className='image'>
+                            <img src={products.image} alt="" style={{height:"20vh",width:"10vw"}} />
                         </div>
-                        <p>{products.title}</p>
-                        <p>{products.price}</p>
+                       <div  style={{height:"150px"}}>
+                       <h3>{products.title}</h3>
+                       <p>{products.price}</p>
+                       </div>
+                        <div className="buttons">
+                        <button className='button1'>add to cart</button>
+                        <button className='button1'>view product</button>
+                        <button className='button1'><i class="fa-solid fa-heart"></i></button>
+                        </div>
                     </div>
+                    </div>
+                
                 )
             }
         )}
       </div>
+      </>
     )
   }
 }

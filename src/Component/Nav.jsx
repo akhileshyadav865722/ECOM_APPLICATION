@@ -4,7 +4,7 @@ function Nav() {
   return (
     <>
     <div className='main'>
-        <h1 className='logo'>EcomApplication</h1>
+      <h1 className='logo'><span style={{color:'black',fontSize:'9vh'}}> E</span>comApplication</h1>
     <nav>
   <ul>
     <li>Cart </li>

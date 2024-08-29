@@ -38,12 +38,12 @@
 .buttons
 {
     display:  flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .button1{
     padding:8px 15px;
-    background-color: red;
+    background-color: rgb(26, 102, 243);
     font-weight: 600;
     color: #fff;
     border: none;

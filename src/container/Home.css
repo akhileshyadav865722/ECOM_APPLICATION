@@ -1,9 +1,12 @@
+
 .products{
       display: flex;
       flex-wrap: wrap;
       justify-content:space-evenly;
-      gap: 15px;
-      padding-bottom: 20px;
+      gap: 20px;
+      padding-bottom: 30px;
+      margin-top:10vh;
+      
       
       
       
@@ -11,12 +14,17 @@
 .first{
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     width:300px;
     height:auto;
     text-align: center;
     padding: 20px;
     margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
 
     
     
@@ -25,20 +33,28 @@
     
     border-radius: 10px;
     padding: 20px;
-   box-shadow: 1px 1px 4px 1px  inset rgb(223, 222, 222);
+   border: 1px solid black;
+   padding-bottom:50px;
    background-color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content:center;
+
+   
     
 
 }
 
 .first h3, p{
     font-size:120%;
-    margin-top: 20px;
+    margin-top:10px;
+
 }
 .buttons
 {
     display:  flex;
     justify-content: space-between;
+
 }
 
 .button1{

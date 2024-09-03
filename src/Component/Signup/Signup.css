@@ -1,0 +1,104 @@
+
+
+.registration-container {
+    min-width: 100%;
+    height: 88vh;
+    display: grid;
+    place-items: center;
+    background-image: url(./images/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    
+}
+.registration-form{
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+      rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+       rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    padding: 40px;
+    width:400px;
+    height:85%;
+    text-align: center;
+    
+}
+.registration-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.terms input {
+    margin-right: 8px;
+}
+
+.signup-btn {
+    background-color: #00bcd4;
+    color: rgba(19, 18, 18, 0.767);
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    width: 80%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.signup-btn:hover {
+    background-color: #141414;
+    color: lightcyan;
+    width: 100%;
+    
+    
+}
+
+.registration-form p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.registration-form a {
+    color: #d40000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:18px;
+}
+
+.registration-form a:hover {
+    text-decoration: underline;
+}

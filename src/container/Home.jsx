@@ -11,6 +11,7 @@ export default class home extends Component {
     }
     getProducts(){
         fetch('https://fakestoreapi.com/products')
+        
         .then(res=>res.json())
         .then(json=>this.setState({products:json}))
     }
@@ -30,7 +31,7 @@ export default class home extends Component {
                 <div className="first">
                     <div key={index} >
                         <div className='image'>
-                            <img src={products.image} alt="" style={{height:"20vh",width:"10vw"}} />
+                            <img src={products.image} alt="" style={{height:"25vh",width:"15vw"}} />
                         </div>
                        <div  style={{height:"150px"}}>
                        <h3>{products.title}</h3>

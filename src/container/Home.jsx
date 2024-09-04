@@ -31,9 +31,9 @@ export default class home extends Component {
                 <div className="first">
                     <div key={index} >
                         <div className='image'>
-                            <img src={products.image} alt="" style={{height:"25vh",width:"15vw"}} />
+                            <img src={products.image} alt="" style={{height:"25vh",width:"13vw"}} />
                         </div>
-                       <div  style={{height:"150px"}}>
+                       <div  style={{height:"130px"}}>
                        <h3>{products.title}</h3>
                        <p>{products.price}</p>
                        </div>

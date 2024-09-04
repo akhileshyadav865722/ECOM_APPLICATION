@@ -22,7 +22,7 @@ function Nav() {
       <div className="nav-links">
         <button><i className="fa-solid fa-cart-shopping"></i></button>
         <button><i className="fa-regular fa-heart"></i></button>
-        <button><i className="fa-solid fa-user-tie"></i></button>
+        <Link to="login"><button> <i className="fa-solid fa-user-tie"></i></button></Link>
       </div>
     </div>
    </header>

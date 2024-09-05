@@ -1,4 +1,9 @@
-
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .products{
       display: flex;
       flex-wrap: wrap;
@@ -15,7 +20,7 @@
     width:300px;
     height:auto;
     text-align: center;
-    margin-top:2%;
+    margin-top: 2%;
     border: 1px solid lightgray;
     border-radius: 10px;
     

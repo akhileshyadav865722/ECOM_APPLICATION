@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Nav.css";
-
 import { Link } from 'react-router-dom';
 
 function Nav() {
@@ -20,7 +19,7 @@ function Nav() {
         <input type="text" placeholder="Search the product"/>
       </div>
       <div className="nav-links">
-        <button><i className="fa-solid fa-cart-shopping"></i></button>
+       <Link to="/Cart"> <button><i className="fa-solid fa-cart-shopping"></i></button></Link>
         <button><i className="fa-regular fa-heart"></i></button>
         <Link to="login"><button> <i className="fa-solid fa-user-tie"></i></button></Link>
       </div>
